@@ -1,0 +1,12 @@
+export { HomePageBackground } from './HomePageBackground';
+export { HeroSection } from './HeroSection';
+export { CommunitySection } from './CommunitySection';
+export { SentinelEventsSection } from './SentinelEventsSection';
+export { SentinelUpcomingEventsSection } from './SentinelUpcomingEventsSection';
+export { HowItWorksSection } from './HowItWorksSection';
+export { WhatWeCoverSection } from './WhatWeCoverSection';
+export { VendorParticipationSection } from './VendorParticipationSection';
+export { DigitalContentSection } from './DigitalContentSection';
+export { WhoItsForSection } from './WhoItsForSection';
+export { GuildMembershipSection } from './GuildMembershipSection';
+export { GetInvolvedSection } from './GetInvolvedSection';
