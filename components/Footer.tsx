@@ -84,8 +84,23 @@ export function Footer() {
               alt="Varonis"
               className="h-10 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 brightness-0 invert"
             />
+            <img
+              src="/threatlocker.png"
+              alt="ThreatLocker"
+              className="h-10 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 brightness-0 invert"
+            />
+            <img
+              src="/dux.png"
+              alt="Dux Security"
+              className="h-10 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 brightness-0 invert"
+            />
+            <img
+              src="/adaptivesecurity.png"
+              alt="Adaptive Security"
+              className="h-10 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 brightness-0 invert"
+            />
           </div>
-          
+
           <div className="text-center mt-8">
             <p className="text-slate-400 text-sm italic">and many more</p>
           </div>

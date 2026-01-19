@@ -43,7 +43,10 @@ export function SolutionProvidersPageContent() {
     { src: '/Fortinet-logo-cmyk-white.png', alt: 'Fortinet' },
     { src: '/Zscaler logo.png', alt: 'Zscaler' },
     { src: '/commvault.png', alt: 'Commvault' },
-    { src: '/Logo_Varonis_White.png', alt: 'Varonis' }
+    { src: '/Logo_Varonis_White.png', alt: 'Varonis' },
+    { src: '/threatlocker.png', alt: 'ThreatLocker' },
+    { src: '/dux.png', alt: 'Dux Security' },
+    { src: '/adaptivesecurity.png', alt: 'Adaptive Security' }
   ];
 
   const engagementLevels = [
@@ -288,6 +291,9 @@ export function SolutionProvidersPageContent() {
                 <img src="/Zscaler logo.png" alt="Zscaler" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
                 <img src="/commvault.png" alt="Commvault" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
                 <img src="/Logo_Varonis_White.png" alt="Varonis" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
+                <img src="/threatlocker.png" alt="ThreatLocker" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
+                <img src="/dux.png" alt="Dux Security" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
+                <img src="/adaptivesecurity.png" alt="Adaptive Security" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
 
                 {/* Duplicate set for seamless loop */}
                 <img src="/MicrosoftLogo.png" alt="Microsoft" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
@@ -304,6 +310,9 @@ export function SolutionProvidersPageContent() {
                 <img src="/Zscaler logo.png" alt="Zscaler" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
                 <img src="/commvault.png" alt="Commvault" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
                 <img src="/Logo_Varonis_White.png" alt="Varonis" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
+                <img src="/threatlocker.png" alt="ThreatLocker" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
+                <img src="/dux.png" alt="Dux Security" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
+                <img src="/adaptivesecurity.png" alt="Adaptive Security" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
               </div>
             </div>
             
