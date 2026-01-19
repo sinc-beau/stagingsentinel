@@ -28,15 +28,30 @@ async function generateEventPages() {
 
   console.log('Fetching live events from Supabase...');
 
-  const { data: events, error } = await supabase
-    .from('events')
-    .select('*')
-    .eq('islive', true)
-    .order('date', { ascending: true });
+  let events = [];
+  let error = null;
+
+  try {
+    const result = await supabase
+      .from('events')
+      .select('*')
+      .eq('islive', true)
+      .order('date', { ascending: true });
+
+    events = result.data;
+    error = result.error;
+  } catch (fetchError) {
+    console.log('⚠️  Unable to connect to Supabase:', fetchError.message);
+    console.log('📄 Using existing event pages for build');
+    console.log('');
+    process.exit(0);
+  }
 
   if (error) {
-    console.error('Error fetching events:', error);
-    process.exit(1);
+    console.log('⚠️  Error fetching events from Supabase:', error.message);
+    console.log('📄 Using existing event pages for build');
+    console.log('');
+    process.exit(0);
   }
 
   console.log(`Found ${events?.length || 0} live events`);

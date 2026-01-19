@@ -77,7 +77,7 @@ const councilMembers: CouncilMember[] = [
   },
   {
     name: "Dr. Carnell A. Council II",
-    title: "Chief Information Security Officer (CISO)",
+    title: "Chief Information Security Officer",
     organization: "Arctic Slope Regional Corporation",
     image: "/drcarnellciso.png",
     bio: "Dr. Carnell A. Council II brings over 25 years of experience in information assurance and cybersecurity, specializing in building resilient cybersecurity and risk management programs that protect organizations from evolving threats. As a seasoned executive and governance, risk, and compliance expert, he leads strategic cyber initiatives spanning risk quantification, crisis management, and business continuity. He has guided high-performing teams and influenced senior leaders to drive operational excellence, regulatory compliance, and cross-functional resilience. Backed by industry-leading certifications—including CISSP, C|CISO, CISM, CISA, CDPSE, and CMMC-AB Registered Practitioner—he is recognized for delivering data-driven, high-impact solutions. Honored with the 2021 BEYA Career Achievement Award, he continues to champion cybersecurity maturity and organizational resilience at the highest levels."
@@ -112,14 +112,14 @@ const councilMembers: CouncilMember[] = [
   },
   {
     name: "Bradley J. Schaufenbuel",
-    title: "Vice President and Chief Information Security Officer",
+    title: "Chief Information Security Officer",
     organization: "Paychex",
     image: "/brad_schaufenbuel.png",
     bio: "Bradley J. Schaufenbuel is currently Vice President and Chief Information Security Officer at Paychex. He has over 29 years of experience in the information security field at companies in the financial services and technology verticals, has written numerous books and professional journal articles, possesses an MBA, a JD, and an LLM, maintains over two dozen professional certifications, serves as an advisor to multiple venture capital firms and cybersecurity startups, and regularly speaks at industry conferences."
   },
   {
     name: "John Opala, PhD",
-    title: "Vice President of IT Infrastructure and Global Chief Information Security Officer",
+    title: "Chief Information Security Officer",
     organization: "Fortune 500 Manufacturing & Consumer Goods",
     image: "/john_opala.png",
     bio: "John Opala, PhD, is a senior global technology and cybersecurity executive with over two decades of experience leading enterprise-scale transformation across Fortune 500 manufacturing, retail, and consumer goods organizations. He currently serves as Vice President of IT Infrastructure and Global Chief Information Security Officer, aligning cybersecurity and infrastructure strategy with business growth and P&L objectives. Dr. Opala is recognized for modernizing complex environments, building high-performing global teams, and delivering measurable outcomes in cost optimization, risk reduction, and regulatory confidence. He is a trusted advisor to executive leadership and boards, known for translating complex cyber risk into clear, business-relevant insight. Dr. Opala is also an active leader in the cybersecurity community and a strong advocate for education, digital inclusion, and mentorship."
