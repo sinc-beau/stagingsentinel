@@ -46,7 +46,9 @@ export function SolutionProvidersPageContent() {
     { src: '/Logo_Varonis_White.png', alt: 'Varonis' },
     { src: '/threatlocker.png', alt: 'ThreatLocker' },
     { src: '/dux.png', alt: 'Dux Security' },
-    { src: '/adaptivesecurity.png', alt: 'Adaptive Security' }
+    { src: '/adaptivesecurity.png', alt: 'Adaptive Security' },
+    { src: '/daylight_security-2.png', alt: 'Daylight Security' },
+    { src: '/rivalsecurity.png', alt: 'Rival Security' }
   ];
 
   const engagementLevels = [
@@ -294,6 +296,8 @@ export function SolutionProvidersPageContent() {
                 <img src="/threatlocker.png" alt="ThreatLocker" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
                 <img src="/dux.png" alt="Dux Security" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
                 <img src="/adaptivesecurity.png" alt="Adaptive Security" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
+                <img src="/daylight_security-2.png" alt="Daylight Security" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
+                <img src="/rivalsecurity.png" alt="Rival Security" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
 
                 {/* Duplicate set for seamless loop */}
                 <img src="/MicrosoftLogo.png" alt="Microsoft" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
@@ -313,6 +317,8 @@ export function SolutionProvidersPageContent() {
                 <img src="/threatlocker.png" alt="ThreatLocker" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
                 <img src="/dux.png" alt="Dux Security" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
                 <img src="/adaptivesecurity.png" alt="Adaptive Security" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
+                <img src="/daylight_security-2.png" alt="Daylight Security" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
+                <img src="/rivalsecurity.png" alt="Rival Security" className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 flex-shrink-0 brightness-0 invert" />
               </div>
             </div>
             

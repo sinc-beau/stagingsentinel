@@ -99,6 +99,16 @@ export function Footer() {
               alt="Adaptive Security"
               className="h-10 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 brightness-0 invert"
             />
+            <img
+              src="/daylight_security-2.png"
+              alt="Daylight Security"
+              className="h-10 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 brightness-0 invert"
+            />
+            <img
+              src="/rivalsecurity.png"
+              alt="Rival Security"
+              className="h-10 w-auto object-contain opacity-70 hover:opacity-100 transition-all duration-300 brightness-0 invert"
+            />
           </div>
 
           <div className="text-center mt-8">
