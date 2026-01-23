@@ -788,43 +788,6 @@ function GoldSponsorSection() {
       <section className="py-16 bg-slate-900">
         <div className="max-w-7xl mx-auto px-8 lg:px-16">
           <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 bg-green-500/10 border border-green-500/30 px-4 py-2 rounded-full mb-4">
-              <Award className="w-4 h-4 text-green-400" />
-              <span className="text-xs font-mono text-green-400 tracking-wider uppercase">Panel Sponsors</span>
-            </div>
-            <h2 className="text-3xl lg:text-4xl font-black text-white mb-4">
-              Panel Partners
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-xl blur-2xl opacity-50 group-hover:opacity-75 transition-opacity" />
-              <div className="relative bg-slate-900/60 border border-green-500/30 rounded-xl p-12 hover:border-green-400/50 transition-all duration-300 flex items-center justify-center h-32">
-                <img
-                  src="/rivalsecurity.png"
-                  alt="Rival Security"
-                  className="h-16 w-auto object-contain brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity"
-                />
-              </div>
-            </div>
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-xl blur-2xl opacity-50 group-hover:opacity-75 transition-opacity" />
-              <div className="relative bg-slate-900/60 border border-green-500/30 rounded-xl p-12 hover:border-green-400/50 transition-all duration-300 flex items-center justify-center h-32">
-                <img
-                  src="/daylight_security-2.png"
-                  alt="Daylight Security"
-                  className="h-16 w-auto object-contain brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-slate-900">
-        <div className="max-w-7xl mx-auto px-8 lg:px-16">
-          <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 bg-slate-500/10 border border-slate-500/30 px-4 py-2 rounded-full mb-4">
               <Award className="w-4 h-4 text-slate-400" />
               <span className="text-xs font-mono text-slate-400 tracking-wider uppercase">Silver Sponsors</span>
@@ -858,6 +821,43 @@ function GoldSponsorSection() {
                 <img
                   src="/threatlocker.png"
                   alt="ThreatLocker"
+                  className="h-16 w-auto object-contain brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-slate-900">
+        <div className="max-w-7xl mx-auto px-8 lg:px-16">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 bg-green-500/10 border border-green-500/30 px-4 py-2 rounded-full mb-4">
+              <Award className="w-4 h-4 text-green-400" />
+              <span className="text-xs font-mono text-green-400 tracking-wider uppercase">Panel Sponsors</span>
+            </div>
+            <h2 className="text-3xl lg:text-4xl font-black text-white mb-4">
+              Panel Partners
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-xl blur-2xl opacity-50 group-hover:opacity-75 transition-opacity" />
+              <div className="relative bg-slate-900/60 border border-green-500/30 rounded-xl p-12 hover:border-green-400/50 transition-all duration-300 flex items-center justify-center h-32">
+                <img
+                  src="/rivalsecurity.png"
+                  alt="Rival Security"
+                  className="h-16 w-auto object-contain brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity"
+                />
+              </div>
+            </div>
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-xl blur-2xl opacity-50 group-hover:opacity-75 transition-opacity" />
+              <div className="relative bg-slate-900/60 border border-green-500/30 rounded-xl p-12 hover:border-green-400/50 transition-all duration-300 flex items-center justify-center h-32">
+                <img
+                  src="/daylight_security-2.png"
+                  alt="Daylight Security"
                   className="h-16 w-auto object-contain brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity"
                 />
               </div>
