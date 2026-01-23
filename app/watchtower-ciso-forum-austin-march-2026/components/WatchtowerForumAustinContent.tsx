@@ -18,6 +18,7 @@ export function WatchtowerForumAustinContent() {
         <AgendaHighlightsSection />
         <ForumRegistrationSection />
         <DiamondSponsorSection />
+        <GoldSponsorSection />
         <ForumPresentationsSection />
         <VenueSection />
         <ExperienceTypesSection />
