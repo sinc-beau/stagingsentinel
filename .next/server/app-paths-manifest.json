@@ -3,5 +3,6 @@
   "/(home)/page": "app/(home)/page.js",
   "/watchtower-ciso-forum-austin-march-2026/page": "app/watchtower-ciso-forum-austin-march-2026/page.js",
   "/shield-sessions/page": "app/shield-sessions/page.js",
-  "/defending-against-deepfakes-vrt-ping-feb-2026/page": "app/defending-against-deepfakes-vrt-ping-feb-2026/page.js"
+  "/defending-against-deepfakes-vrt-ping-feb-2026/page": "app/defending-against-deepfakes-vrt-ping-feb-2026/page.js",
+  "/app-security-modern-infrastructure-broadcom-vrt-jan/page": "app/app-security-modern-infrastructure-broadcom-vrt-jan/page.js"
 }

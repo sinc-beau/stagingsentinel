@@ -31,6 +31,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/defending-against-deepfakes-vrt-ping-feb-2026/layout.js"
     ],
+    "/app-security-modern-infrastructure-broadcom-vrt-jan/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/app-security-modern-infrastructure-broadcom-vrt-jan/page.js"
+    ],
+    "/app-security-modern-infrastructure-broadcom-vrt-jan/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/app-security-modern-infrastructure-broadcom-vrt-jan/layout.js"
+    ],
     "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
