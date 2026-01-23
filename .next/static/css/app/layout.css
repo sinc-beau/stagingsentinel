@@ -1895,6 +1895,9 @@ video {
 .border-yellow-500\/30 {
   border-color: rgb(234 179 8 / 0.3);
 }
+.border-purple-500\/40 {
+  border-color: rgb(168 85 247 / 0.4);
+}
 .border-l-transparent {
   border-left-color: transparent;
 }
@@ -2135,6 +2138,9 @@ video {
 }
 .bg-purple-500\/10 {
   background-color: rgb(168 85 247 / 0.1);
+}
+.bg-green-500\/10 {
+  background-color: rgb(34 197 94 / 0.1);
 }
 .bg-opacity-10 {
   --tw-bg-opacity: 0.1;
@@ -3999,6 +4005,9 @@ div[style*="z-index: 2000000000"],
 }
 .hover\:border-yellow-400\/50:hover {
   border-color: rgb(250 204 21 / 0.5);
+}
+.hover\:border-purple-400\/60:hover {
+  border-color: rgb(192 132 252 / 0.6);
 }
 .hover\:bg-accent:hover {
   background-color: hsl(var(--accent));
