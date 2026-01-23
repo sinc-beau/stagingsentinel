@@ -1,4 +1,5 @@
 {
+  "/not-found": "app/not-found.js",
   "/(home)/page": "app/(home)/page.js",
   "/watchtower-ciso-forum-austin-march-2026/page": "app/watchtower-ciso-forum-austin-march-2026/page.js",
   "/shield-sessions/page": "app/shield-sessions/page.js",
