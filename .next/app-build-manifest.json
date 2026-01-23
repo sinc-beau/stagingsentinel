@@ -10,6 +10,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(home)/page.js"
+    ],
+    "/watchtower-ciso-forum-austin-march-2026/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/watchtower-ciso-forum-austin-march-2026/page.js"
     ]
   }
 }
