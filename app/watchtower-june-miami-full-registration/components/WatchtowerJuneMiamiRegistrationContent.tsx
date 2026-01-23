@@ -4,7 +4,7 @@ import React from 'react';
 import { Calendar, MapPin } from 'lucide-react';
 import { DynamicForumForm } from '@/components/forms/DynamicForumForm';
 import { Navigation } from '@/components/Navigation';
-import { Footer } from '@/components/Footer';
+import { EventFooter } from '@/components/EventFooter';
 
 export default function WatchtowerJuneMiamiRegistrationContent() {
   return (
@@ -55,7 +55,7 @@ export default function WatchtowerJuneMiamiRegistrationContent() {
           </div>
         </section>
       </main>
-      <Footer />
+      <EventFooter />
     </div>
   );
 }

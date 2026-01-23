@@ -5,7 +5,7 @@ import { Shield, Calendar, MapPin, Users, Brain, Network, Award, ChevronRight, C
 import { PrimaryButton } from '@/components/ui/buttons/PrimaryButton';
 import { SecondaryButton } from '@/components/ui/buttons/SecondaryButton';
 import { Navigation } from '@/components/Navigation';
-import { Footer } from '@/components/Footer';
+import { EventFooter } from '@/components/EventFooter';
 import { DynamicForumForm } from '@/components/forms/DynamicForumForm';
 
 export function WatchtowerForumAustinSeptemberContent() {
@@ -28,7 +28,7 @@ export function WatchtowerForumAustinSeptemberContent() {
         <PartnerSection />
         <RegistrationSection />
       </main>
-      <Footer />
+      <EventFooter />
     </div>
   );
 }

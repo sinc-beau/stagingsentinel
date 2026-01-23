@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { supabase, Event, AgendaItem, EventSpeaker, EventSponsor } from '@/lib/supabase';
 import { Navigation } from '@/components/Navigation';
-import { Footer } from '@/components/Footer';
+import { EventFooter } from '@/components/EventFooter';
 import { SpeakerSection } from './components/SpeakerSection';
 import { AboutSponsorsSection } from './components/AboutSponsorsSection';
 import { SponsorsHeroSection } from './components/SponsorsHeroSection';
@@ -287,7 +287,7 @@ export function EventPage({ slug }: EventPageProps) {
         {speakers.length > 0 && <SpeakerSection speakers={speakers} />}
         {sponsors.length > 0 && <AboutSponsorsSection sponsors={sponsors} />}
       </main>
-      <Footer />
+      <EventFooter />
     </div>
   );
 }
