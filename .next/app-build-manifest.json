@@ -20,6 +20,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/shield-sessions/page.js"
+    ],
+    "/defending-against-deepfakes-vrt-ping-feb-2026/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/defending-against-deepfakes-vrt-ping-feb-2026/page.js"
+    ],
+    "/defending-against-deepfakes-vrt-ping-feb-2026/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/defending-against-deepfakes-vrt-ping-feb-2026/layout.js"
     ]
   }
 }
