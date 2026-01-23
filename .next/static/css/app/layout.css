@@ -2133,6 +2133,9 @@ video {
 .bg-yellow-500\/20 {
   background-color: rgb(234 179 8 / 0.2);
 }
+.bg-purple-500\/10 {
+  background-color: rgb(168 85 247 / 0.1);
+}
 .bg-opacity-10 {
   --tw-bg-opacity: 0.1;
 }
