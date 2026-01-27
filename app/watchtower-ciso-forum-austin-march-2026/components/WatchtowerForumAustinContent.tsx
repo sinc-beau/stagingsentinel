@@ -262,7 +262,27 @@ function AgendaHighlightsSection() {
     setExpandedSessions(newExpanded);
   };
 
-  const agendaData = 
+  type SessionItem = {
+    title: string;
+    synopsis: string;
+    sponsor?: string;
+    speakers?: string;
+    moderators?: string;
+    panelists?: string;
+  };
+
+  type Session = {
+    time: string;
+    items: SessionItem[];
+  };
+
+  type DayAgenda = {
+    day: string;
+    date: string;
+    sessions: Session[];
+  };
+
+  const agendaData: DayAgenda[] = 
 [
   {
     "day": "Sunday",
