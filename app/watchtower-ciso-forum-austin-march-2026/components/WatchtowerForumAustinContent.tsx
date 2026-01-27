@@ -610,7 +610,7 @@ function AgendaHighlightsSection() {
                             {session.items.map((item, itemIndex) => {
                               const sessionId = `${day.day}-${sessionIndex}-${itemIndex}`;
                               const isExpanded = expandedSessions.has(sessionId);
-                              const hasDetails = item.synopsis || item.speaker || item.speakers || item.moderators || item.panelists || item.sponsor;
+                              const hasDetails = item.synopsis || item.speakers || item.moderators || item.panelists || item.sponsor;
                               
                               return (
                                 <div 
