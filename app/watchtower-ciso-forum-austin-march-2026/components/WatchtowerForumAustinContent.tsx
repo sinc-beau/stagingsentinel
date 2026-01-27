@@ -252,265 +252,278 @@ function AgendaHighlightsSection() {
   };
 
   const agendaData = [
-    {
-      day: 'Sunday',
-      date: 'March 1, 2026',
-      sessions: [
-        {
-          time: '2:00 - 5:00 PM',
-          items: [
-            {
-              title: 'Registration',
-              synopsis: 'Get familiar with SINC Staff and the event layout. Secure your complimentary Swag Bag and learn how to use the Onsite Application for Peer Engagement and win great prizes!'
-            }
-          ]
-        },
-        {
-          time: '5:30 - 7:00 PM',
-          items: [
-            {
-              title: 'Welcome & Reception',
-              synopsis: 'Engage your Peers over canapes and cocktails'
-            }
-          ]
-        },
-        {
-          time: '7:00 - 9:00 PM',
-          items: [
-            {
-              title: 'Dinner & Keynote',
-              synopsis: 'Open seating buffet meal serving 5-star food and great Peer engagement before Day 1 kicks off'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      day: 'Monday',
-      date: 'March 2, 2026',
-      sessions: [
-        {
-          time: '7:00 - 7:55 AM',
-          items: [
-            {
-              title: 'Breakfast',
-              synopsis: 'Fuel up and network with fellow tech leaders before the day kicks off!'
-            }
-          ]
-        },
-        {
-          time: '8:00 - 8:55 AM',
-          items: [
-            {
-              title: 'Opening Remarks, Keynote & PANEL - Leadership at the Speed of Threat',
-              synopsis: 'In today\'s environment, success isn\'t about predicting the next threat - It\'s about being ready for when it arrives. This panel brings together leading CISOs to discuss navigating dual pressures of innovation and resilience, balancing emerging technologies like AI and Zero Trust with organizational shifts needed to defend against tomorrow\'s threats.'
-            }
-          ]
-        },
-        {
-          time: '8:55 - 9:05 AM',
-          items: [
-            {
-              title: 'Networking Break',
-              synopsis: 'Circle back with your Peers on the content so far while grabbing a coffee or tea and a snack'
-            }
-          ]
-        },
-        {
-          time: '9:05 - 9:35 AM',
-          items: [
-            {
-              title: 'BREAKOUT SESSION - The CISO\'s New Frontier: Navigating Agentic AI',
-              synopsis: 'Examine the dual nature of Agentic AI in cybersecurity - from revolutionary threat detection to autonomous AI-driven attacks. Explore how CISOs must evolve from traditional IT protectors to strategic business leaders.'
-            },
-            {
-              title: 'BREAKOUT SESSION - A New Paradigm for Managing Third-Party Risk',
-              synopsis: '87% of F1000 businesses were affected by significant cyber incidents from third-parties in the past 12 months. Learn about continuous monitoring and real-time external threat detection using AI across Public Data to augment traditional questionnaires.'
-            }
-          ]
-        },
-        {
-          time: '9:45 - 10:15 AM',
-          items: [
-            {
-              title: 'BREAKOUT SESSION - Ransomware Resilience: Can You Reboot in Under an Hour?',
-              synopsis: 'You\'ve got backups, but are you operationally ready to respond at speed? We\'ll walk through a play-by-play simulation of a ransomware event and dissect the communication, recovery, and continuity decisions that separate a fast rebound from a costly failure.'
-            },
-            {
-              title: 'BREAKOUT SESSION - Building a Resilient Risk Management Program',
-              synopsis: 'A practical blueprint for building and sustaining a risk management program that drives real resilience. Learn to simplify risk identification, prioritize threats based on business impact, and implement scalable mitigation strategies.'
-            }
-          ]
-        },
-        {
-          time: '10:15 - 10:30 AM',
-          items: [
-            {
-              title: 'Networking Break',
-              synopsis: 'Circle back with your Peers on the content so far while grabbing a coffee or tea and a snack'
-            }
-          ]
-        },
-        {
-          time: '10:35 - 11:35 AM',
-          items: [
-            {
-              title: 'BOARDROOM SESSION 1 - The CFO Conversation: How to Justify Spend Without the Fear Factor',
-              synopsis: 'Boards are tired of fear-based budget requests. Learn how to make a confident business case for security, cloud, and modernization investments without leading with doom and gloom.'
-            },
-            {
-              title: 'BOARDROOM SESSION 2 - What to Tell Your Board About Cyber Risk (and What Not To)',
-              synopsis: 'Boards want to understand cyber risk but don\'t need technical details. This session teaches how to translate security posture into business language, present risk in terms executives understand, and avoid both fear-mongering and false reassurance. Walk away with communication templates and presentation frameworks that actually work.'
-            },
-            {
-              title: 'BOARDROOM SESSION 3 - Playbook Exchange, What\'s Actually Working?',
-              synopsis: 'A highly interactive, fast-paced session of shared strategies, tools, and wins (or fails). Walk away with five new ideas from your peers that you can try in your org tomorrow.'
-            }
-          ]
-        },
-        {
-          time: '11:50 AM - 1:00 PM',
-          items: [
-            {
-              title: 'Lunch & Keynote/Panel',
-              synopsis: 'Enjoy a gourmet meal while engaging with thought-provoking keynote speakers and panel discussions.'
-            }
-          ]
-        },
-        {
-          time: '1:00 - 1:10 PM',
-          items: [
-            {
-              title: 'Networking Break',
-              synopsis: 'Circle back with your Peers on the content so far while grabbing a coffee or tea and a snack'
-            }
-          ]
-        },
-        {
-          time: '1:15 - 1:45 PM',
-          items: [
-            {
-              title: 'BREAKOUT SESSION - Redefining Product Security in the Age of AI and Quantum',
-              synopsis: 'Explore how AI and Quantum Computing are redefining product security. Discuss the urgent need to rethink security architectures, prepare for post-quantum threats, and leverage AI responsibly.'
-            },
-            {
-              title: 'BREAKOUT SESSION - Mastering Data Security Posture',
-              synopsis: 'Learn how DSPM enables continuous visibility into data flows, identifies risk exposure, and prioritizes remediation. Gain insights into strengthening data governance and reducing risk in hybrid and cloud environments.'
-            }
-          ]
-        },
-        {
-          time: '2:15 - 5:00 PM',
-          items: [
-            {
-              title: 'Off-site Activity 1',
-              synopsis: 'Experience Austin\'s best with curated activities designed for networking and team building.'
-            },
-            {
-              title: 'Off-site Activity 2',
-              synopsis: 'Choose from multiple off-site experiences designed to foster connections and create memorable moments.'
-            }
-          ]
-        },
-        {
-          time: '5:00 - 6:30 PM',
-          items: [
-            {
-              title: 'Reception',
-              synopsis: 'Great conversations, an easy way to reconnect with new contacts over canapes and cocktails'
-            }
-          ]
-        },
-        {
-          time: '6:30 - 8:00 PM',
-          items: [
-            {
-              title: 'Dinner',
-              synopsis: 'Open seating buffet meal serving 5-star food and great Peer engagement.'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      day: 'Tuesday',
-      date: 'March 3, 2026',
-      sessions: [
-        {
-          time: '8:00 - 8:55 AM',
-          items: [
-            {
-              title: 'Breakfast',
-              synopsis: 'Fuel up and network with fellow tech leaders before the day kicks off!'
-            }
-          ]
-        },
-        {
-          time: '9:00 - 9:55 AM',
-          items: [
-            {
-              title: 'Opening Remarks, Keynote & PANEL - The One Thing I\'d Do Differently',
-              synopsis: 'What separates hindsight from insight? In this unscripted close, senior execs share one decision they regret, what they learned from it, and what they\'d advise others to do differently.'
-            }
-          ]
-        },
-        {
-          time: '9:55 - 10:05 AM',
-          items: [
-            {
-              title: 'Networking Break',
-              synopsis: 'Circle back with your Peers on the content so far while grabbing a coffee or tea and a snack'
-            }
-          ]
-        },
-        {
-          time: '10:10 - 11:10 AM',
-          items: [
-            {
-              title: 'BOARDROOM SESSION 4 - Scaling Security with Innovation',
-              synopsis: 'Explore strategies for keeping software security aligned with rapid technological advancements. Adapt security measures to modern development practices and ensure your strategy evolves with organizational needs.'
-            },
-            {
-              title: 'BOARDROOM SESSION 5 - Threats We\'re Not Talking About (Yet)',
-              synopsis: 'From deepfake fraud to AI-driven phishing and attack-as-a-service marketplaces, this session brings light to the newest generation of threats you need to be thinking about now.'
-            }
-          ]
-        },
-        {
-          time: '11:10 - 11:20 AM',
-          items: [
-            {
-              title: 'Networking Break',
-              synopsis: 'Circle back with your Peers on the content so far while grabbing a coffee or tea and a snack'
-            }
-          ]
-        },
-        {
-          time: '11:20 AM - 12:20 PM',
-          items: [
-            {
-              title: 'BOARDROOM SESSION 6 - The Tech Leader\'s New Balancing Act: Risk, Velocity & Visibility',
-              synopsis: 'With every team demanding faster delivery and more flexibility, how do leaders balance speed with visibility and control? Hear how top execs are managing this tension while enabling transformation. We\'ll cover: • Prioritize delivery without compromising oversight • Align leadership across security and engineering • Establish control points that support transformation'
-            },
-            {
-              title: 'BOARDROOM SESSION 7 - Skills Gap Reality: Hiring and Retaining Tech Talent',
-              synopsis: 'Everyone wants the same cybersecurity professionals. Cloud architects are commanding ridiculous salaries. This session explores how leaders are getting creative with hiring, building internal training programs, and structuring compensation packages that work within budget constraints. Real strategies for competing in an impossible talent market.'
-            }
-          ]
-        },
-        {
-          time: '12:30 PM',
-          items: [
-            {
-              title: 'Lunch & Departure',
-              synopsis: 'Open seating, Buffet-style lunch. Serving food for all tastes, pallets and preferences. Vegan, vegetarian, halal options available. Serving to-go boxes for those in a hurry!'
-            }
-          ]
-        }
-      ]
-    }
-  ];
-
+  {
+    "day": "Sunday",
+    "date": "March 1, 2026",
+    "sessions": [
+      {
+        "time": "2:00 PM - 5:00 PM",
+        "items": [
+          {
+            "title": "Registration",
+            "synopsis": ""
+          }
+        ]
+      },
+      {
+        "time": "5:30 PM - 7:00 PM",
+        "items": [
+          {
+            "title": "Welcome & Reception",
+            "synopsis": ""
+          }
+        ]
+      },
+      {
+        "time": "7:00 PM - 9:00 PM",
+        "items": [
+          {
+            "title": "Dinner",
+            "synopsis": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Monday",
+    "date": "March 2, 2026",
+    "sessions": [
+      {
+        "time": "10:15 AM - 10:30 AM",
+        "items": [
+          {
+            "title": "Networking Break",
+            "synopsis": ""
+          }
+        ]
+      },
+      {
+        "time": "10:35 AM - 11:05 AM",
+        "items": [
+          {
+            "title": "AI Agents in the SOC: How to Add Autonomy Without Losing Control",
+            "synopsis": "** Provided by Sponsor 01.13\n\nSecurity leaders are being pushed to \u201cuse AI\u201d in the SOC, but the real question is where autonomy belongs, and what you must control so it doesn\u2019t create new risk while trying to reduce old risk. This session breaks down a pragmatic path from traditional SOAR automation to AI agents that can summarize incidents, enrich alerts, recommend actions, and execute response steps under policy-driven constraints. We\u2019ll cover what agentic looks like in real operations (vs. demo magic), where humans stay in the loop, and how to keep decision-making explainable and auditable"
+          },
+          {
+            "title": "WORKSHOP 1 - Identity Is the Control Plane for Agentic Commerce",
+            "synopsis": "AI agents require access to APIs, data, and services making identity the system that governs autonomy itself. This session explores how IAM evolves from access control to the orchestration layer for agentic ecosystems."
+          }
+        ]
+      },
+      {
+        "time": "11:15 AM - 11:45 AM",
+        "items": [
+          {
+            "title": "PANEL - Identity Validation Beyond IAM: Stopping Fraud, Deepfakes, and Spoofing",
+            "synopsis": "Identity is no longer just about access. It is about proving that a human, device, or system is real in an environment flooded with synthetic identities and AI generated deception. This panel examines why traditional IAM controls are failing to stop fraud, deepfakes, and spoofing attacks and what security leaders must do to move from authentication to continuous identity validation across people, machines, and transactions."
+          }
+        ]
+      },
+      {
+        "time": "11:55 AM - 12:25 PM",
+        "items": [
+          {
+            "title": "NEEDS CONTENT",
+            "synopsis": "Boards are asking for assurance on AI and SaaS risk while most governance models remain fragmented or theoretical. This closed door session is designed for CISOs to pressure test their existing frameworks against real board expectations around accountability, control coverage, and measurable risk. Participants will compare approaches, identify structural gaps, and leave with clearer guidance on what governance must look like to withstand executive and regulatory scrutiny."
+          },
+          {
+            "title": "NEEDS CONTENT (abstract) From Hype to Hardened: Scaling Agentic AI Without Sacrificing SaaS Security",
+            "synopsis": ""
+          }
+        ]
+      },
+      {
+        "time": "12:25 PM - 1:35 PM",
+        "items": [
+          {
+            "title": "LUNCH",
+            "synopsis": "Circle back with your Peers on the content so far while grabbing a coffee or tea and a snack"
+          }
+        ]
+      },
+      {
+        "time": "1:40 PM - 2:10 PM",
+        "items": [
+          {
+            "title": "NEEDS CONTENT",
+            "synopsis": "AI enabled influence campaigns and deepfakes are no longer theoretical risks for critical infrastructure operators and their supply chains. This boardroom session examines the intersection of election security, information integrity, and operational resilience. CISOs will explore what preparedness really means when public trust, regulatory pressure, and national level consequences converge."
+          },
+          {
+            "title": "WORKSHOP 2 - Cyber Resilience & Incident Response: The First 45 Minutes",
+            "synopsis": "The first 45 minutes of an incident determine whether an organization contains the damage or loses control of the narrative. This presentation focuses on the decisions, missteps, and leadership gaps that most incident response plans do not address. Senior leaders will gain a clear view of what must happen immediately when systems fail, communications break down, and pressure from the business escalates"
+          }
+        ]
+      },
+      {
+        "time": "2:20 PM - 2:50 PM",
+        "items": [
+          {
+            "title": "PRESNTATION - Continuous Pentesting in Lean Security Teams",
+            "synopsis": "Annual testing cycles cannot keep up with continuous change. For lean security teams, the challenge is not whether to test but how to do it without adding headcount or complexity. This session explores how continuous pentesting can be operationalized in resource constrained environments, shifting testing from a compliance exercise into a living signal that informs real time risk decisions."
+          }
+        ]
+      },
+      {
+        "time": "2:50 PM - 3:00 PM",
+        "items": [
+          {
+            "title": "Networking Break",
+            "synopsis": ""
+          }
+        ]
+      },
+      {
+        "time": "3:00 PM - 3:50 PM",
+        "items": [
+          {
+            "title": "Third\u2011Party Risk Done Right: Actuarial Models, AI, and Real Due Diligence",
+            "synopsis": "Third party risk programs often generate volume without insight. This panel explores how actuarial thinking, AI driven analysis, and continuous due diligence can replace static assessments and checkbox driven processes. Security leaders will debate what it actually means to measure third party risk in ways that stand up to executive scrutiny and reflect real world exposure."
+          }
+        ]
+      },
+      {
+        "time": "4:00 PM - 6:30 PM",
+        "items": [
+          {
+            "title": "ONSITE ACTIVITIES",
+            "synopsis": ""
+          }
+        ]
+      },
+      {
+        "time": "6:30 PM - 7:00 PM",
+        "items": [
+          {
+            "title": "Networking Reception & Cocktail Hour",
+            "synopsis": "Great conversations, an easy ways to reconnect with new contacts over canapes and cocktails"
+          }
+        ]
+      },
+      {
+        "time": "7:00 AM - 7:55 AM",
+        "items": [
+          {
+            "title": "Breakfast",
+            "synopsis": ""
+          }
+        ]
+      },
+      {
+        "time": "7:00 PM - 8:30 PM",
+        "items": [
+          {
+            "title": "Dinner",
+            "synopsis": "Open seating buffet meal serving 5-star food and great Peer engagement."
+          }
+        ]
+      },
+      {
+        "time": "8:00 AM - 8:55 AM",
+        "items": [
+          {
+            "title": "Cyber Resilience Workshop",
+            "synopsis": "Attendees will dive into an exploration of cyber resilience planning to help prepare for and\nrespond effectively to cyber attacks.\n\nKey topics will include:\n\u2022 Understanding the Difference Between DR and CR Plans: The distinctions between Disaster Recovery (DR) and Cyber Resilience (CR) plans.\n\u2022 Importance of Early Detection: The significance of early detection through advanced warning systems, which can help mitigate the impact of an attack by identifying and addressing vulnerabilities before they are exploited.\n\u2022 Key Stakeholders: The key stakeholders who should be involved in cyber resilience planning, including IT and Security teams, legal advisors, public relations professionals, and senior management. We will discuss the roles and responsibilities of each stakeholder in ensuring a robust and effective response.\n\u2022 Real World Scenarios: Discussion scenarios to test and improve response capabilities. These exercises will help attendees identify gaps in their current plans and develop strategies to enhance their organization\u2019s resilience.\n\nBy the end of this Cyber Resilience Workshop, attendees will have a better understanding of the steps needed to protect their organization from cyber threats and the importance of a well-prepared, documented, and practiced response plan. They will leave with actionable insights and tools to strengthen their cyber resilience strategies."
+          }
+        ]
+      },
+      {
+        "time": "9:05 AM - 9:35 AM",
+        "items": [
+          {
+            "title": "WORKSHOP 1 - Security Debt is Rising: Here\u2019s How to Stay Ahead",
+            "synopsis": "\"Innovation and risk go hand in hand, but the Veracode 2026 State of Software Security report reveals a critical truth: the pace of critical code flaw creation is outpacing the capacity to fix them. With 82% of organizations now burdened by security debt (an 11% increase in just one year) and a 36% surge in high-risk vulnerabilities, the stakes have never been higher.\n\nThis year\u2019s report challenges teams to rethink the approach. It\u2019s not about fixing every flaw; it\u2019s about prioritizing the most critical risks, protecting your most valuable assets, and leveraging AI to turn the tide.\n\nJoin us as we explore the key findings and actionable strategies to help your organization prioritize, protect, and prevail in the face of rising security challenges.\""
+          },
+          {
+            "title": "NEEDS CONTENT",
+            "synopsis": "SOC strategy is now a board level decision tied directly to cost, risk tolerance, and resilience. This session challenges CISOs to evaluate whether automation, outsourcing, or AI driven detection actually improves outcomes or simply shifts responsibility. The discussion focuses on operating models, failure modes, and the questions boards are increasingly asking when incidents occur despite significant investment."
+          }
+        ]
+      },
+      {
+        "time": "9:45 AM - 10:15 AM",
+        "items": [
+          {
+            "title": "WORKSHOP 1 - Modern Security Operations with Insight - Moving at Machine Speed",
+            "synopsis": "Cyber attackers don\u2019t need much time\u2014they just need a vulnerability. Forensic analysis shows that once inside, threat actors can move laterally across an enterprise in under an hour. In some cases, it takes just 15 minutes. And with 32% of ransomware incidents traced to known but unpatched vulnerabilities, failing to update systems is like playing Russian Roulette\u2014with more than one bullet in the chamber.In this session, you will:Understand the real-world impact of unpatched vulnerabilities and why patching must be a priorityExplore the modern attacker\u2019s toolkit\u2014including automation, AI, and credential stuffing\u2014and how they accelerate time-to-compromiseLearn actionable strategies to tighten patch management, reduce dwell time, and defend against fast-moving threats"
+          },
+          {
+            "title": "WORKSHOP 2 - Know Thy Data: Data Security Posture Management (DSPM) in the Age of AI",
+            "synopsis": "Artificial intelligence is rapidly becoming embedded across the enterprise\u2014yet most organizations still lack a clear understanding of where their sensitive data resides, who can access it, and how it is being used. While Data Security Posture Management (DSPM) has emerged as a critical capability, many DSPM programs introduce dangerous blind spots by operating independently from identity governance. The result is sensitive data exposed through over-privileged accounts, orphaned access rights, and misaligned entitlements.As AI systems consume massive volumes of structured and unstructured data, these gaps significantly amplify security, privacy, and compliance risks. Although organizations are making progress in data discovery and classification, they often fail to correlate data sensitivity with identity access\u2014undermining both data protection and responsible AI adoption.This session examines how AI simultaneously amplifies data risk and enhances DSPM, from intelligent classification and contextual risk scoring to automated remediation. In the age of AI, knowing where your data lives is no longer enough\u2014you must understand who can access it, why, and how AI will use it."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Tuesday",
+    "date": "March 3, 2026",
+    "sessions": [
+      {
+        "time": "10:05 AM - 11:05 AM",
+        "items": [
+          {
+            "title": "AI Governance & SaaS Governance \u2014 Bring Your Framework",
+            "synopsis": "Boards are asking for assurance on AI and SaaS risk while most governance models remain fragmented or theoretical. This closed door session is designed for CISOs to pressure test their existing frameworks against real board expectations around accountability, control coverage, and measurable risk. Participants will compare approaches, identify structural gaps, and leave with clearer guidance on what governance must look like to withstand executive and regulatory scrutiny."
+          },
+          {
+            "title": "SOC Modernization: Automation, Outsourcing, and AI\u2011Driven Detection",
+            "synopsis": "SOC strategy is now a board level decision tied directly to cost, risk tolerance, and resilience. This session challenges CISOs to evaluate whether automation, outsourcing, or AI driven detection actually improves outcomes or simply shifts responsibility. The discussion focuses on operating models, failure modes, and the questions boards are increasingly asking when incidents occur despite significant investment."
+          }
+        ]
+      },
+      {
+        "time": "11:05 AM - 11:20 AM",
+        "items": [
+          {
+            "title": "NETWORKING BREAK",
+            "synopsis": ""
+          }
+        ]
+      },
+      {
+        "time": "11:20 AM - 12:20 PM",
+        "items": [
+          {
+            "title": "Regulatory Compliance & Reporting: Navigating SEC, Privacy, and AI Regulations",
+            "synopsis": "Regulatory expectations are expanding faster than most security reporting models can keep up. This session is focused on how CISOs can translate security posture, incidents, and AI risk into disclosures that meet SEC, privacy, and emerging AI regulatory requirements. The discussion centers on defensibility, consistency, and the personal accountability executives now carry for what is reported to regulators and the board."
+          },
+          {
+            "title": "Election Security, Deepfakes & Critical Infrastructure Resilience",
+            "synopsis": "AI enabled influence campaigns and deepfakes are no longer theoretical risks for critical infrastructure operators and their supply chains. This boardroom session examines the intersection of election security, information integrity, and operational resilience. CISOs will explore what preparedness really means when public trust, regulatory pressure, and national level consequences converge."
+          }
+        ]
+      },
+      {
+        "time": "12:30 PM - 1:30 PM",
+        "items": [
+          {
+            "title": "GRAB N' GO LUNCH",
+            "synopsis": "Serving food for all tastes, palates, and preferences. Vegan and vegetarian options available. Serving to-go boxes for those in a hurry!"
+          }
+        ]
+      },
+      {
+        "time": "8:00 AM - 8:55 AM",
+        "items": [
+          {
+            "title": "Breakfast",
+            "synopsis": ""
+          }
+        ]
+      },
+      {
+        "time": "9:00 AM - 9:55 AM",
+        "items": [
+          {
+            "title": "The Future of Identity: AI, Fraud, and the Collapse of Trust",
+            "synopsis": "Identity has become the primary attack surface and AI is accelerating its failure. Deepfakes, synthetic identities, and automated fraud are eroding traditional trust models faster than most organizations can adapt. This opening keynote panel brings senior security leaders together to confront how AI is reshaping identity risk, why legacy authentication and access controls are no longer sufficient, and what must fundamentally change to restore trust at scale. The discussion sets a clear challenge for CISOs navigating a future where proving who or what to trust is no longer binary or static.\n \n \n \t\nIdentity has become the primary attack surface and AI is accelerating its failure. Deepfakes, synthetic identities, and automated fraud are eroding traditional trust models faster than most organizations can adapt. This opening keynote panel brings senior security leaders together to confront how AI is reshaping identity risk, why legacy authentication and access controls are no longer sufficient, and what must fundamentally change to restore trust at scale. The discussion sets a clear challenge for CISOs navigating a future where proving who or what to trust is no longer binary or static."
+          }
+        ]
+      }
+    ]
+  }
+]
   return (
     <section className="py-24 bg-black">
       <div className="max-w-7xl mx-auto px-8 lg:px-16">
@@ -566,7 +579,7 @@ function AgendaHighlightsSection() {
                             {session.items.map((item, itemIndex) => (
                               <div key={itemIndex} className={session.items.length > 1 ? "pl-4 border-l-2 border-slate-700" : ""}>
                                 <h4 className="text-lg font-bold text-white mb-2">{item.title}</h4>
-                                <p className="text-slate-300 leading-relaxed">{item.synopsis}</p>
+                                {item.synopsis && <p className="text-slate-300 leading-relaxed">{item.synopsis}</p>}
                               </div>
                             ))}
                           </div>
