@@ -284,6 +284,7 @@ function AgendaHighlightsSection() {
 
   const agendaData: DayAgenda[] = 
 [
+[
   {
     "day": "Sunday",
     "date": "March 1, 2026",
@@ -360,13 +361,13 @@ function AgendaHighlightsSection() {
         "time": "11:55 AM - 12:25 PM",
         "items": [
           {
-            "title": "NEEDS CONTENT",
+            "title": "Check back soon for more information.",
             "synopsis": "Boards are asking for assurance on AI and SaaS risk while most governance models remain fragmented or theoretical. This closed door session is designed for CISOs to pressure test their existing frameworks against real board expectations around accountability, control coverage, and measurable risk. Participants will compare approaches, identify structural gaps, and leave with clearer guidance on what governance must look like to withstand executive and regulatory scrutiny.",
             "sponsor": "Checkmarx"
           },
           {
-            "title": "NEEDS CONTENT (abstract) From Hype to Hardened: Scaling Agentic AI Without Sacrificing SaaS Security",
-            "synopsis": "",
+            "title": "From Hype to Hardened: Scaling Agentic AI Without Sacrificing SaaS Security",
+            "synopsis": "Check back soon for more information.",
             "sponsor": "AppOmni",
             "speakers": "Fayyaz Rajpari (Sr. Director, GSI)"
           }
@@ -385,7 +386,7 @@ function AgendaHighlightsSection() {
         "time": "1:40 PM - 2:10 PM",
         "items": [
           {
-            "title": "NEEDS CONTENT",
+            "title": "Workshop 1 - check back soon for more information.",
             "synopsis": "AI enabled influence campaigns and deepfakes are no longer theoretical risks for critical infrastructure operators and their supply chains. This boardroom session examines the intersection of election security, information integrity, and operational resilience. CISOs will explore what preparedness really means when public trust, regulatory pressure, and national level consequences converge.",
             "sponsor": "Adaptive Security"
           },
@@ -479,7 +480,7 @@ function AgendaHighlightsSection() {
             "speakers": "Johnny Wong (VP, Global Solutions Architecture)"
           },
           {
-            "title": "NEEDS CONTENT",
+            "title": "Workshop 2 - check back soon for more information.",
             "synopsis": "SOC strategy is now a board level decision tied directly to cost, risk tolerance, and resilience. This session challenges CISOs to evaluate whether automation, outsourcing, or AI driven detection actually improves outcomes or simply shifts responsibility. The discussion focuses on operating models, failure modes, and the questions boards are increasingly asking when incidents occur despite significant investment.",
             "sponsor": "SquareX"
           }
@@ -573,6 +574,7 @@ function AgendaHighlightsSection() {
       }
     ]
   }
+]
 ];
 
   return (
