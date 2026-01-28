@@ -283,6 +283,7 @@ function AgendaHighlightsSection() {
   };
 
   const agendaData: DayAgenda[] = [
+[
   {
     "day": "Sunday",
     "date": "March 1, 2026",
@@ -320,6 +321,59 @@ function AgendaHighlightsSection() {
     "day": "Monday",
     "date": "March 2, 2026",
     "sessions": [
+      {
+        "time": "7:00 AM - 7:55 AM",
+        "items": [
+          {
+            "title": "Breakfast",
+            "synopsis": ""
+          }
+        ]
+      },
+      {
+        "time": "8:00 AM - 8:55 AM",
+        "items": [
+          {
+            "title": "Cyber Resilience Workshop",
+            "synopsis": "Attendees will dive into an exploration of cyber resilience planning to help prepare for and\nrespond effectively to cyber attacks.\n\nKey topics will include:\n\u2022 Understanding the Difference Between DR and CR Plans: The distinctions between Disaster Recovery (DR) and Cyber Resilience (CR) plans.\n\u2022 Importance of Early Detection: The significance of early detection through advanced warning systems, which can help mitigate the impact of an attack by identifying and addressing vulnerabilities before they are exploited.\n\u2022 Key Stakeholders: The key stakeholders who should be involved in cyber resilience planning, including IT and Security teams, legal advisors, public relations professionals, and senior management. We will discuss the roles and responsibilities of each stakeholder in ensuring a robust and effective response.\n\u2022 Real World Scenarios: Discussion scenarios to test and improve response capabilities. These exercises will help attendees identify gaps in their current plans and develop strategies to enhance their organization\u2019s resilience.\n\nBy the end of this Cyber Resilience Workshop, attendees will have a better understanding of the steps needed to protect their organization from cyber threats and the importance of a well-prepared, documented, and practiced response plan. They will leave with actionable insights and tools to strengthen their cyber resilience strategies.",
+            "sponsor": "Commvault",
+            "speakers": "Chris Bevill (Principal Consultant, Product Experience)"
+          }
+        ]
+      },
+      {
+        "time": "9:05 AM - 9:35 AM",
+        "items": [
+          {
+            "title": "WORKSHOP 1 - Security Debt is Rising: Here\u2019s How to Stay Ahead",
+            "synopsis": "\"Innovation and risk go hand in hand, but the Veracode 2026 State of Software Security report reveals a critical truth: the pace of critical code flaw creation is outpacing the capacity to fix them. With 82% of organizations now burdened by security debt (an 11% increase in just one year) and a 36% surge in high-risk vulnerabilities, the stakes have never been higher.\n\nThis year\u2019s report challenges teams to rethink the approach. It\u2019s not about fixing every flaw; it\u2019s about prioritizing the most critical risks, protecting your most valuable assets, and leveraging AI to turn the tide.\n\nJoin us as we explore the key findings and actionable strategies to help your organization prioritize, protect, and prevail in the face of rising security challenges.\"",
+            "sponsor": "Veracode",
+            "speakers": "Johnny Wong (VP, Global Solutions Architecture)"
+          },
+          {
+            "title": "Workshop 2 - check back soon for more information.",
+            "synopsis": "SOC strategy is now a board level decision tied directly to cost, risk tolerance, and resilience. This session challenges CISOs to evaluate whether automation, outsourcing, or AI driven detection actually improves outcomes or simply shifts responsibility. The discussion focuses on operating models, failure modes, and the questions boards are increasingly asking when incidents occur despite significant investment.",
+            "sponsor": "SquareX"
+          }
+        ]
+      },
+      {
+        "time": "9:45 AM - 10:15 AM",
+        "items": [
+          {
+            "title": "WORKSHOP 1 - Modern Security Operations with Insight - Moving at Machine Speed",
+            "synopsis": "Cyber attackers don\u2019t need much time\u2014they just need a vulnerability. Forensic analysis shows that once inside, threat actors can move laterally across an enterprise in under an hour. In some cases, it takes just 15 minutes. And with 32% of ransomware incidents traced to known but unpatched vulnerabilities, failing to update systems is like playing Russian Roulette\u2014with more than one bullet in the chamber.In this session, you will:Understand the real-world impact of unpatched vulnerabilities and why patching must be a priorityExplore the modern attacker\u2019s toolkit\u2014including automation, AI, and credential stuffing\u2014and how they accelerate time-to-compromiseLearn actionable strategies to tighten patch management, reduce dwell time, and defend against fast-moving threats",
+            "sponsor": "Insight",
+            "speakers": "Matt Darlington (Solution Principal)"
+          },
+          {
+            "title": "WORKSHOP 2 - Know Thy Data: Data Security Posture Management (DSPM) in the Age of AI",
+            "synopsis": "Artificial intelligence is rapidly becoming embedded across the enterprise\u2014yet most organizations still lack a clear understanding of where their sensitive data resides, who can access it, and how it is being used. While Data Security Posture Management (DSPM) has emerged as a critical capability, many DSPM programs introduce dangerous blind spots by operating independently from identity governance. The result is sensitive data exposed through over-privileged accounts, orphaned access rights, and misaligned entitlements.As AI systems consume massive volumes of structured and unstructured data, these gaps significantly amplify security, privacy, and compliance risks. Although organizations are making progress in data discovery and classification, they often fail to correlate data sensitivity with identity access\u2014undermining both data protection and responsible AI adoption.This session examines how AI simultaneously amplifies data risk and enhances DSPM, from intelligent classification and contextual risk scoring to automated remediation. In the age of AI, knowing where your data lives is no longer enough\u2014you must understand who can access it, why, and how AI will use it.",
+            "sponsor": "OpenText",
+            "speakers": "Eric Popiel (Cybersecurity/Data Management Strategist and Evangelist)"
+          }
+        ]
+      },
       {
         "time": "10:15 AM - 10:30 AM",
         "items": [
@@ -440,64 +494,11 @@ function AgendaHighlightsSection() {
         ]
       },
       {
-        "time": "7:00 AM - 7:55 AM",
-        "items": [
-          {
-            "title": "Breakfast",
-            "synopsis": ""
-          }
-        ]
-      },
-      {
         "time": "7:00 PM - 8:30 PM",
         "items": [
           {
             "title": "Dinner",
             "synopsis": "Open seating buffet meal serving 5-star food and great Peer engagement."
-          }
-        ]
-      },
-      {
-        "time": "8:00 AM - 8:55 AM",
-        "items": [
-          {
-            "title": "Cyber Resilience Workshop",
-            "synopsis": "Attendees will dive into an exploration of cyber resilience planning to help prepare for and\nrespond effectively to cyber attacks.\n\nKey topics will include:\n\u2022 Understanding the Difference Between DR and CR Plans: The distinctions between Disaster Recovery (DR) and Cyber Resilience (CR) plans.\n\u2022 Importance of Early Detection: The significance of early detection through advanced warning systems, which can help mitigate the impact of an attack by identifying and addressing vulnerabilities before they are exploited.\n\u2022 Key Stakeholders: The key stakeholders who should be involved in cyber resilience planning, including IT and Security teams, legal advisors, public relations professionals, and senior management. We will discuss the roles and responsibilities of each stakeholder in ensuring a robust and effective response.\n\u2022 Real World Scenarios: Discussion scenarios to test and improve response capabilities. These exercises will help attendees identify gaps in their current plans and develop strategies to enhance their organization\u2019s resilience.\n\nBy the end of this Cyber Resilience Workshop, attendees will have a better understanding of the steps needed to protect their organization from cyber threats and the importance of a well-prepared, documented, and practiced response plan. They will leave with actionable insights and tools to strengthen their cyber resilience strategies.",
-            "sponsor": "Commvault",
-            "speakers": "Chris Bevill (Principal Consultant, Product Experience)"
-          }
-        ]
-      },
-      {
-        "time": "9:05 AM - 9:35 AM",
-        "items": [
-          {
-            "title": "WORKSHOP 1 - Security Debt is Rising: Here\u2019s How to Stay Ahead",
-            "synopsis": "\"Innovation and risk go hand in hand, but the Veracode 2026 State of Software Security report reveals a critical truth: the pace of critical code flaw creation is outpacing the capacity to fix them. With 82% of organizations now burdened by security debt (an 11% increase in just one year) and a 36% surge in high-risk vulnerabilities, the stakes have never been higher.\n\nThis year\u2019s report challenges teams to rethink the approach. It\u2019s not about fixing every flaw; it\u2019s about prioritizing the most critical risks, protecting your most valuable assets, and leveraging AI to turn the tide.\n\nJoin us as we explore the key findings and actionable strategies to help your organization prioritize, protect, and prevail in the face of rising security challenges.\"",
-            "sponsor": "Veracode",
-            "speakers": "Johnny Wong (VP, Global Solutions Architecture)"
-          },
-          {
-            "title": "Workshop 2 - check back soon for more information.",
-            "synopsis": "SOC strategy is now a board level decision tied directly to cost, risk tolerance, and resilience. This session challenges CISOs to evaluate whether automation, outsourcing, or AI driven detection actually improves outcomes or simply shifts responsibility. The discussion focuses on operating models, failure modes, and the questions boards are increasingly asking when incidents occur despite significant investment.",
-            "sponsor": "SquareX"
-          }
-        ]
-      },
-      {
-        "time": "9:45 AM - 10:15 AM",
-        "items": [
-          {
-            "title": "WORKSHOP 1 - Modern Security Operations with Insight - Moving at Machine Speed",
-            "synopsis": "Cyber attackers don\u2019t need much time\u2014they just need a vulnerability. Forensic analysis shows that once inside, threat actors can move laterally across an enterprise in under an hour. In some cases, it takes just 15 minutes. And with 32% of ransomware incidents traced to known but unpatched vulnerabilities, failing to update systems is like playing Russian Roulette\u2014with more than one bullet in the chamber.In this session, you will:Understand the real-world impact of unpatched vulnerabilities and why patching must be a priorityExplore the modern attacker\u2019s toolkit\u2014including automation, AI, and credential stuffing\u2014and how they accelerate time-to-compromiseLearn actionable strategies to tighten patch management, reduce dwell time, and defend against fast-moving threats",
-            "sponsor": "Insight",
-            "speakers": "Matt Darlington (Solution Principal)"
-          },
-          {
-            "title": "WORKSHOP 2 - Know Thy Data: Data Security Posture Management (DSPM) in the Age of AI",
-            "synopsis": "Artificial intelligence is rapidly becoming embedded across the enterprise\u2014yet most organizations still lack a clear understanding of where their sensitive data resides, who can access it, and how it is being used. While Data Security Posture Management (DSPM) has emerged as a critical capability, many DSPM programs introduce dangerous blind spots by operating independently from identity governance. The result is sensitive data exposed through over-privileged accounts, orphaned access rights, and misaligned entitlements.As AI systems consume massive volumes of structured and unstructured data, these gaps significantly amplify security, privacy, and compliance risks. Although organizations are making progress in data discovery and classification, they often fail to correlate data sensitivity with identity access\u2014undermining both data protection and responsible AI adoption.This session examines how AI simultaneously amplifies data risk and enhances DSPM, from intelligent classification and contextual risk scoring to automated remediation. In the age of AI, knowing where your data lives is no longer enough\u2014you must understand who can access it, why, and how AI will use it.",
-            "sponsor": "OpenText",
-            "speakers": "Eric Popiel (Cybersecurity/Data Management Strategist and Evangelist)"
           }
         ]
       }
@@ -507,6 +508,25 @@ function AgendaHighlightsSection() {
     "day": "Tuesday",
     "date": "March 3, 2026",
     "sessions": [
+      {
+        "time": "8:00 AM - 8:55 AM",
+        "items": [
+          {
+            "title": "Breakfast",
+            "synopsis": ""
+          }
+        ]
+      },
+      {
+        "time": "9:00 AM - 9:55 AM",
+        "items": [
+          {
+            "title": "The Future of Identity: AI, Fraud, and the Collapse of Trust",
+            "synopsis": "Identity has become the primary attack surface and AI is accelerating its failure. Deepfakes, synthetic identities, and automated fraud are eroding traditional trust models faster than most organizations can adapt. This opening keynote panel brings senior security leaders together to confront how AI is reshaping identity risk, why legacy authentication and access controls are no longer sufficient, and what must fundamentally change to restore trust at scale. The discussion sets a clear challenge for CISOs navigating a future where proving who or what to trust is no longer binary or static.\n \n \n \t\nIdentity has become the primary attack surface and AI is accelerating its failure. Deepfakes, synthetic identities, and automated fraud are eroding traditional trust models faster than most organizations can adapt. This opening keynote panel brings senior security leaders together to confront how AI is reshaping identity risk, why legacy authentication and access controls are no longer sufficient, and what must fundamentally change to restore trust at scale. The discussion sets a clear challenge for CISOs navigating a future where proving who or what to trust is no longer binary or static.",
+            "sponsor": "Daylight Security; Rival Security; Vero Security"
+          }
+        ]
+      },
       {
         "time": "10:05 AM - 11:05 AM",
         "items": [
@@ -550,28 +570,10 @@ function AgendaHighlightsSection() {
             "synopsis": "Serving food for all tastes, palates, and preferences. Vegan and vegetarian options available. Serving to-go boxes for those in a hurry!"
           }
         ]
-      },
-      {
-        "time": "8:00 AM - 8:55 AM",
-        "items": [
-          {
-            "title": "Breakfast",
-            "synopsis": ""
-          }
-        ]
-      },
-      {
-        "time": "9:00 AM - 9:55 AM",
-        "items": [
-          {
-            "title": "The Future of Identity: AI, Fraud, and the Collapse of Trust",
-            "synopsis": "Identity has become the primary attack surface and AI is accelerating its failure. Deepfakes, synthetic identities, and automated fraud are eroding traditional trust models faster than most organizations can adapt. This opening keynote panel brings senior security leaders together to confront how AI is reshaping identity risk, why legacy authentication and access controls are no longer sufficient, and what must fundamentally change to restore trust at scale. The discussion sets a clear challenge for CISOs navigating a future where proving who or what to trust is no longer binary or static.\n \n \n \t\nIdentity has become the primary attack surface and AI is accelerating its failure. Deepfakes, synthetic identities, and automated fraud are eroding traditional trust models faster than most organizations can adapt. This opening keynote panel brings senior security leaders together to confront how AI is reshaping identity risk, why legacy authentication and access controls are no longer sufficient, and what must fundamentally change to restore trust at scale. The discussion sets a clear challenge for CISOs navigating a future where proving who or what to trust is no longer binary or static.",
-            "sponsor": "Daylight Security; Rival Security; Vero Security"
-          }
-        ]
       }
     ]
   }
+]
 ];
 
   return (
