@@ -283,7 +283,6 @@ function AgendaHighlightsSection() {
   };
 
   const agendaData: DayAgenda[] = [
-[
   {
     "day": "Sunday",
     "date": "March 1, 2026",
@@ -573,7 +572,6 @@ function AgendaHighlightsSection() {
       }
     ]
   }
-]
 ];
 
   return (
